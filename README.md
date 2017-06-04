@@ -1,9 +1,9 @@
 # JS_Alogrithms
-Javascript Interview Alogrithms
+## Javascript Interview Alogrithms
 
 
-```//Check if Prime Number
-
+### Check if Prime Number
+```
 function checkPrime(number){
 	var isPrime = false;
 
@@ -17,9 +17,9 @@ return isPrime;
 
 }
 ```
-```
-// Get Prime Numbers
 
+### Get Prime Numbers
+```
 function getPrimeNumbers(number){
 	var factors = [];
 	var divisor = 2;
@@ -36,9 +36,9 @@ function getPrimeNumbers(number){
 	return factors;
 }
 ```
-```
-//Add up preceding number
 
+### Add up preceding number
+```
 function addPrecedingValue(array){
 	var fib = 0;
 	for(var i = 0; i <array.length; i++){
@@ -48,10 +48,9 @@ function addPrecedingValue(array){
 }
 ```
 
+
+### Get fibonacci number @ Fn
 ```
-//Get fibonacci number @ Fn
-
-
 function getFibonacciFn(n){
 	var fib = [0,1]
 	if(n <=2){return 1;}
@@ -64,8 +63,9 @@ function getFibonacciFn(n){
 }
 ```
 
+
+### Get greatest common divisor
 ```
-// Get greatest common divisor
 function getGreatestCommonDivisor(x, y){
 
 	var divisor = 2;
@@ -85,9 +85,9 @@ function getGreatestCommonDivisor(x, y){
 	return greatestCommon;
 }
 ```
-```
-// Remove Duplicates from Array
 
+### Remove Duplicates from Array
+```
 function removeDupes(array){
 	var obj = {};
 	for(var i =0; i < array.length; i++){
@@ -104,9 +104,9 @@ function removeDupes(array){
 }
 ```
 
-```
-//Merge two sorted arrays
 
+### Merge two sorted arrays
+```
 function mergedSorted(a,b){
 	var merged = [],
 	i = 0,
@@ -137,9 +137,9 @@ function mergedSorted(a,b){
 }
 ```
 
-```
-// Swap numbers without a temp variable
 
+### Swap numbers without a temp variable
+```
 function swapGuys(a,b){
 	b = b-a;
 	a = a+b;
@@ -148,34 +148,34 @@ function swapGuys(a,b){
 	console.log("a is now " + a + " b is now " + b);
 }
 ```
-```
-// Reverse a string a.k.a. check if palindrome
 
+### Reverse a string a.k.a. check if palindrome
+```
 function palindrome(string){
 	return string.split('').reverse().join('');
 }
 ```
 
-```
-// Reverse words in a sentence Ex. This guy fucks ---> fucks guy this
 
+### Reverse words in a sentence Ex. This guy fucks ---> fucks guy this
+```
 function reverseWords(string){
 	return string.split(" ").reverse().join(" ");
 }
 ```
 
-```
-// Reverse words in place Ex. This guy fucks --> sihT yug skuf
 
+### Reverse words in place Ex. This guy fucks --> sihT yug skuf
+```
 function thisGuy(string){
 	var reversed = string.split(" ").forEach(function(value){value.split("").reverse().join("");});
 	return reversed.join(" ");
 }
 ```
 
-```
-// split string in place
 
+### split string in place
+```
 function reverse(word){
 	var arry = [];
 	
