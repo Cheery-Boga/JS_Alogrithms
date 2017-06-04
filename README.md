@@ -2,7 +2,7 @@
 Javascript Interview Alogrithms
 
 
-//Check if Prime Number
+```//Check if Prime Number
 
 function checkPrime(number){
 	var isPrime = false;
@@ -16,7 +16,8 @@ for(var i =1; i < 10; i++){
 return isPrime;
 
 }
-
+```
+```
 // Get Prime Numbers
 
 function getPrimeNumbers(number){
@@ -34,8 +35,8 @@ function getPrimeNumbers(number){
 	}
 	return factors;
 }
-
-
+```
+```
 //Add up preceding number
 
 function addPrecedingValue(array){
@@ -45,9 +46,10 @@ function addPrecedingValue(array){
 	}
 	return fib;
 }
+```
 
+```
 //Get fibonacci number @ Fn
-
 
 
 function getFibonacciFn(n){
@@ -60,7 +62,9 @@ function getFibonacciFn(n){
 	return fib[n];
 
 }
+```
 
+```
 // Get greatest common divisor
 function getGreatestCommonDivisor(x, y){
 
@@ -80,7 +84,8 @@ function getGreatestCommonDivisor(x, y){
 
 	return greatestCommon;
 }
-
+```
+```
 // Remove Duplicates from Array
 
 function removeDupes(array){
@@ -97,7 +102,9 @@ function removeDupes(array){
 	return array;
 
 }
+```
 
+```
 //Merge two sorted arrays
 
 function mergedSorted(a,b){
@@ -128,8 +135,9 @@ function mergedSorted(a,b){
 	console.log(merged);
 
 }
+```
 
-
+```
 // Swap numbers without a temp variable
 
 function swapGuys(a,b){
@@ -139,27 +147,33 @@ function swapGuys(a,b){
 
 	console.log("a is now " + a + " b is now " + b);
 }
-
+```
+```
 // Reverse a string a.k.a. check if palindrome
 
 function palindrome(string){
 	return string.split('').reverse().join('');
 }
+```
 
-
+```
 // Reverse words in a sentence Ex. This guy fucks ---> fucks guy this
 
 function reverseWords(string){
 	return string.split(" ").reverse().join(" ");
 }
+```
 
+```
 // Reverse words in place Ex. This guy fucks --> sihT yug skuf
 
 function thisGuy(string){
 	var reversed = string.split(" ").forEach(function(value){value.split("").reverse().join("");});
 	return reversed.join(" ");
 }
+```
 
+```
 // split string in place
 
 function reverse(word){
@@ -174,3 +188,4 @@ function reverse(word){
 
 
 }
+```
